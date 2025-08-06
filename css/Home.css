@@ -1,0 +1,58 @@
+body {
+  background-color: #f0f8ff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  background-color: #083f52 !;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.navbar-nav .nav-item a {
+  color: #ffffff;
+  padding: 10px 15px;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-item a:hover {
+  background-color: #0a5c75;
+  border-radius: 5px;
+}
+
+.carousel-item img {
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+#produtosContainer .card {
+  width: 18rem;
+  border: none;
+  box-shadow: 0 4px 8px rgba(8, 63, 82, 0.3);
+  transition: transform 0.3s;
+}
+
+#produtosContainer .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(8, 63, 82, 0.4);
+}
+
+#produtosContainer .card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+#produtosContainer .card-body {
+  background-color: #e6f1f4;
+}
+
+footer {
+  background-color: #083f52;
+  color: white;
+  font-size: 0.9rem;
+  border-top: 4px solid #0a5c75;
+}
